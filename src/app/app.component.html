@@ -5,8 +5,17 @@
       <h1>Angular Wrangulars ToDo App</h1>
       <img src="../assets/angular-wrangulars-compressed.png" />
       <div>
-        <input type="text" #todo placeholder="Add Todo" name="todo" ngModel />
-        <span (click)="addTodo(todo.value)">Add</span>
+        <h2>There are {{ todoArray.length }} items in the list</h2>
+      </div>
+      <div>
+        <form
+          (submit)="
+            addTodo(todo.value); $event.preventDefault(); $event.target.reset()
+          "
+        >
+          <input type="text" #todo placeholder="Add Todo" name="todo" ngModel />
+        </form>
+        <!-- <span (click)="addTodo(todo.value)">Add</span> -->
 
         <!-- <p>{{ todo.value }}</p> -->
 
