@@ -2,11 +2,22 @@
 <div style="text-align:center">
   <form>
     <div>
-      <h1>Angular Tutorial ToDo App</h1>
+      <h1>Angular Wrangulars ToDo App</h1>
       <img src="../assets/angular-wrangulars-compressed.png" />
       <div>
-        <input type="text" placeholder="Add todo" name="todo" />
-        <span>Add</span>
+        <input type="text" #todo placeholder="Add Todo" name="todo" ngModel />
+        <span (click)="addTodo(todo.value)">Add</span>
+
+        <!-- <p>{{ todo.value }}</p> -->
+
+        <div class="data">
+          <ul class="list-instyled">
+            <li *ngFor="let todo of todoArray">
+              {{ todo }}
+              <i (click)="deleteItem(todo)">delete</i>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </form>
