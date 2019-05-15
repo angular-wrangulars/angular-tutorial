@@ -10,13 +10,14 @@ export class AppComponent {
   todoArray = [];
 
   addTodo(value) {
-    // console.log('addTodo');
-    this.todoArray.push(value);
-    console.log(this.todoArray);
+    // if it's not empty
+    if (value !== '') {
+      this.todoArray.push(value);
+      console.log(this.todoArray);
+    }
   }
 
   deleteItem(todo) {
-    // console.log('deleteItem');
     for (let i = 0; i <= this.todoArray.length; i++) {
       if (todo == this.todoArray[i]) {
         this.todoArray.splice(i, 1);
