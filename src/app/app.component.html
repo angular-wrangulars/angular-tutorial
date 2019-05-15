@@ -10,20 +10,18 @@
       <div>
         <form
           (submit)="
-            addTodo(todo.value); $event.preventDefault(); $event.target.reset()
+            $event.preventDefault(); addTodo(todo.value); $event.target.reset()
           "
         >
           <input type="text" #todo placeholder="Add Todo" name="todo" ngModel />
         </form>
-        <!-- <span (click)="addTodo(todo.value)">Add</span> -->
-
-        <!-- <p>{{ todo.value }}</p> -->
-
         <div class="data">
           <ul class="list-instyled">
             <li *ngFor="let todo of todoArray">
-              {{ todo }}
+              <span>{{ todo }}</span>
               <i (click)="deleteItem(todo)">delete</i>
+              <!-- <i (click)="deleteItem(todo)">edit</i> -->
+              <form><input value="{{ todo }}" type="text" hidden /></form>
             </li>
           </ul>
         </div>
