@@ -5,7 +5,7 @@
 
 
 <p align="center">
-  <img style= float: left width="75" height="75" src="./assets/angular-wrangulars-compressed.png">
+  <img style= float: left width="100" height="100" src="https://i.imgur.com/3pSsbwe.png">
 </p> 
 
 <h2 align="center">Team: Angular Wrangulars</h2>
@@ -49,13 +49,13 @@ The original version 1 release in 2010. AngularJS was completely based on contro
 **Angular 2 (AKA Angular)**
 In 2016 the Angular JS framework was completely re-written and renamed “Angular.” The new Angular is 100% component based. Angular recommends using TypeScript and supports a variety of benefits taken from ES6 such as:
 
-    - For/Of loops
-    - Improved dependency injection
-    - Iterators
-    - Reflection
-    - Dynamic loading
-    - Asynchronous template compilation
-    - Simpler Routing
+    * For/Of loops
+    * Improved dependency injection
+    * Iterators
+    * Reflection
+    * Dynamic loading
+    * Asynchronous template compilation
+    * Simpler Routing
 
 **Angular 4**
 Backwards compatible to Angular 2. Changes to the project structure made the framework more stable, smaller and faster.There were some major changes, but mostly on the project structure with lots of refactors that made the framework more stable.
@@ -86,12 +86,12 @@ A great aspect of Angular’s documentation  (that is often lacking in other doc
 **Systems Requirements**
 
 
-- NPM Packages
-    - Typescript 
-    - tslint
-    - Jasmine
-    - Karma
-    - Protractor
+* NPM Packages
+    * Typescript 
+    * tslint
+    * Jasmine
+    * Karma
+    * Protractor
 
 
 - Given the NPM packages above, no other system requirements.  Angular apps can be written in any editor, on any OS.  Angular apps are supported at all major cloud hosting sites, and can grab data from any major db type.
@@ -124,38 +124,38 @@ We started following a tutorial and within 20 mins (Erin timed it) we were writi
 
 
 
-    **How popular is this framework?**
-    - The popularity of AngularJS peaked in 2016 and has been losing ground to ReactJS considerably since then with 2017 being the year that React took over.
+### How popular is this framework?
+  * The popularity of AngularJS peaked in 2016 and has been losing ground to ReactJS considerably since then with 2017 being the year that React took over.
     
-     **What big companies are running on it?** 
-    - Gmail, YouTube, Google AdWords, PayPal, Netflix, The Guardian, etc. 
+### What big companies are running on it?
+  * Gmail, YouTube, Google AdWords, PayPal, Netflix, The Guardian, etc. 
     
-    **How is it "seen" in the general JS community?** 
-    - In 2018, developers were asked their opinion of Angular vs. React and Vue JS:  
-        - React is the most loved frontend framework, more than **80%** of developers *used it and would use again* or *would like to learn it*. 
-        - More than **70%** of developers used VueJS.
-        - Only **33%** of developers used Angular and more than 60% *would not use it again* or *are not interested*.
+### How is it "seen" in the general JS community? 
+  * In 2018, developers were asked their opinion of Angular vs. React and Vue JS:  
+  * React is the most loved frontend framework, more than **80%** of developers *used it and would use again* or *would like to learn it*. 
+   * More than **70%** of developers used VueJS.
+   * Only **33%** of developers used Angular and more than 60% *would not use it again* or *are not interested*.
     
 ----------
 ## Links and Resources
-    **Framework** 
-    - [Angular.io](https://angular.io/)
-    **Docs**
-    - [Angular.io Docs](https://angular.io/docs)
-    **Tutorials**
-    - [Learn how to create your first Angular app in 20 minutes](https://medium.freecodecamp.org/learn-how-to-create-your-first-angular-app-in-20-min-146201d9b5a7)
-    - [Tour of Heroes](https://angular.io/tutorial)
-    - [Angular Tutorial: Learn Angular from scratch step by step](https://angular-templates.io/tutorials/about/learn-angular-from-scratch-step-by-step)
-    **Resources**
-    - [React vs. Angular: The Complete Comparison](https://programmingwithmosh.com/react/react-vs-angular/)
-[](https://blog.angularindepth.com/the-mechanics-of-dom-updates-in-angular-3b2970d5c03d)    - [The Mechanics of DOM Updates in](https://blog.angularindepth.com/the-mechanics-of-dom-updates-in-angular-3b2970d5c03d) [](https://blog.angularindepth.com/the-mechanics-of-dom-updates-in-angular-3b2970d5c03d)[Angular](https://blog.angularindepth.com/the-mechanics-of-dom-updates-in-angular-3b2970d5c03d)
-    - [Is Angular Dead?](https://dev.to/zooly/is-angular-dead--1627)
-    - [Angular vs React.js vs Vue.js - My Thoughts!](https://www.academind.com/learn/javascript/angular-vs-react-vs-vue-my-thoughts/)
-    - [Github Stars !== Usage: React is still blowing Vue and Angular Away](https://zendev.com/2018/06/19/react-usage-beating-vue-angular.html)
+### Framework
+ * [Angular.io](https://angular.io/)
+### Docs
+ * [Angular.io Docs](https://angular.io/docs)
+### Tutorials
+ * [Learn how to create your first Angular app in 20 minutes](https://medium.freecodecamp.org/learn-how-to-create-your-first-angular-app-in-20-min-146201d9b5a7)
+ * [Tour of Heroes](https://angular.io/tutorial)
+ * [Angular Tutorial: Learn Angular from scratch step by step](https://angular-templates.io/tutorials/about/learn-angular-from-scratch-step-by-step)
+### Resources
+ * [React vs. Angular: The Complete Comparison](https://programmingwithmosh.com/react/react-vs-angular/)
+ * [The Mechanics of DOM Updates in](https://blog.angularindepth.com/the-mechanics-of-dom-updates-in-angular-3b2970d5c03d)
+ * [Is Angular Dead?](https://dev.to/zooly/is-angular-dead--1627)
+ * [Angular vs React.js vs Vue.js - My Thoughts!](https://www.academind.com/learn/javascript/angular-vs-react-vs-vue-my-thoughts/)
+    * [Github Stars !== Usage: React is still blowing Vue and Angular Away](https://zendev.com/2018/06/19/react-usage-beating-vue-angular.html)
     
 ----------
 ## Code Demos
-- [Code Repository](https://github.com/angular-wrangulars/angular-tutorial)
+* [Code Repository](https://github.com/angular-wrangulars/angular-tutorial)
 
 **Operating Instructions**
 *If someone were to download your repo (above), what steps do they need to take to run the application*
