@@ -49,13 +49,13 @@ The original version 1 release in 2010. AngularJS was completely based on contro
 **Angular 2 (AKA Angular)**
 In 2016 the Angular JS framework was completely re-written and renamed “Angular.” The new Angular is 100% component based. Angular recommends using TypeScript and supports a variety of benefits taken from ES6 such as:
 
-    * For/Of loops
-    * Improved dependency injection
-    * Iterators
-    * Reflection
-    * Dynamic loading
-    * Asynchronous template compilation
-    * Simpler Routing
+  * For/Of loops
+  * Improved dependency injection
+  * Iterators
+  * Reflection
+  * Dynamic loading
+  * Asynchronous template compilation
+  * Simpler Routing
 
 **Angular 4**
 Backwards compatible to Angular 2. Changes to the project structure made the framework more stable, smaller and faster.There were some major changes, but mostly on the project structure with lots of refactors that made the framework more stable.
@@ -87,11 +87,11 @@ A great aspect of Angular’s documentation  (that is often lacking in other doc
 
 
 * NPM Packages
-    * Typescript 
-    * tslint
-    * Jasmine
-    * Karma
-    * Protractor
+  * Typescript 
+  * tslint
+  * Jasmine
+  * Karma
+  * Protractor
 
 
 - Given the NPM packages above, no other system requirements.  Angular apps can be written in any editor, on any OS.  Angular apps are supported at all major cloud hosting sites, and can grab data from any major db type.
